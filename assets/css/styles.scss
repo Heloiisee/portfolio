@@ -6,6 +6,7 @@
 //Couleurs du site
 $color-primary: #0f331e;
 $color-secondary: #fbfbfc;
+$color-tertiary: "#383c38";
 
 // Polices et tailles des textes
 $font-primary: 'Poppins', sans-serif;
@@ -283,6 +284,22 @@ body{
         align-items: center;
         text-align: center;
         margin-top: 5rem;
+    }
+    p{
+        font-size: $font-size-small;
+        color: $color-primary;
+        margin-bottom: 1.5rem;
+        
+    }
+    a{
+        color: $color-primary;
+        text-decoration: none;
+        font-size: $font-size-small;
+        font-weight: 600;
+        transition: color 0.3s ease;
+        &:hover{
+            color: darken($color-primary, 10%);
+        }
     }
 }
 

@@ -225,6 +225,21 @@ body {
   text-align: center;
   margin-top: 5rem;
 }
+.contact p {
+  font-size: 1.4rem;
+  color: #0f331e;
+  margin-bottom: 1.5rem;
+}
+.contact a {
+  color: #0f331e;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.contact a:hover {
+  color: #030c07;
+}
 
 footer {
   background-color: #0f331e;
